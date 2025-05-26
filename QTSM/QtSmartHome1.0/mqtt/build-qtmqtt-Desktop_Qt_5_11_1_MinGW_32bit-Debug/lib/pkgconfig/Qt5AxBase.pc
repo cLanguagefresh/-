@@ -1,0 +1,14 @@
+prefix=C:/Users/qt/work/install
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 AxBase
+Description: Qt AxBase module
+Version: 5.14.2
+Libs: -L${libdir} -lQt5AxBase 
+Libs.private: -LC:\openssl\lib -LC:\Utils\my_sql\mysql-5.7.25-win32\lib -LC:\Utils\postgresql\pgsql\lib C:\Users\qt\work\install\lib\libQt5Widgets.a C:\Users\qt\work\install\lib\libQt5Gui.a C:\Users\qt\work\install\lib\libQt5Core.a -lole32 -loleaut32 -luser32 -lgdi32 -ladvapi32 -luuid   
+Cflags: -DQT_AXBASE_LIB -I${includedir}/ActiveQt -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

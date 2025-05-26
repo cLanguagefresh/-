@@ -1,0 +1,7 @@
+#ifndef COMMUNICATIONWITHSTM32QT_H 
+#define COMMUNICATIONWITHSTM32QT_H 
+
+#define JSON_BUFFER_SIZE 128
+void CommunicationWithSTM32Qt(void);
+
+#endif

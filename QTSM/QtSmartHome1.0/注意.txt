@@ -1,0 +1,5 @@
+1.路径得是英文
+2.SmartHome.pro里的LIBS += D:\QT\QT_Project\mqtt\build-qtmqtt-Desktop_Qt_5_11_1_MinGW_32bit-Debug\lib\lib*.a要修改
+修改成你自己的mqtt\build-qtmqtt-Desktop_Qt_5_11_1_MinGW_32bit-Debug\lib\lib*.a
+如我这里是D:\QT\QT_Project\mqtt\build-qtmqtt-Desktop_Qt_5_11_1_MinGW_32bit-Debug\lib\lib*.a      我的mqtt文件在D盘下QT_Project文件夹下
+mqtt文件夹我也给大家了，自己保存到别的路径下。要英文路径

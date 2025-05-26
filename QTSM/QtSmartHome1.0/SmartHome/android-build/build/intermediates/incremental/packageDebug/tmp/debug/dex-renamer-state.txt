@@ -1,0 +1,4 @@
+#Thu May 15 19:14:41 CST 2025
+base.0=C\:\\Users\\JTL\\Desktop\\version\\version1.0 .1\\QTSM\\QtSmartHome1.0\\SmartHome\\android-build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,243 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example.SmartHome"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:3:5-73
+9        android:minSdkVersion="21"
+9-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:3:15-41
+10        android:targetSdkVersion="28" />
+10-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:3:42-71
+11
+12    <!--
+13         The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
+14         Remove the comment if you do not require these default permissions.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:7:5-79
+16-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:7:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:8:5-67
+17-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:9:5-81
+18-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:9:22-78
+19
+20    <!--
+21         The following comment will be replaced upon deployment with default features based on the dependencies of the application.
+22         Remove the comment if you do not require these default features.
+23    -->
+24
+25    <supports-screens
+25-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:15:5-135
+26        android:anyDensity="true"
+26-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:15:80-105
+27        android:largeScreens="true"
+27-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:15:23-50
+28        android:normalScreens="true"
+28-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:15:51-79
+29        android:smallScreens="true" />
+29-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:15:106-133
+30
+31    <application
+31-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:17:5-91:19
+32        android:name="org.qtproject.qt5.android.bindings.QtApplication"
+32-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:17:53-116
+33        android:debuggable="true"
+34        android:extractNativeLibs="true"
+34-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:17:143-175
+35        android:hardwareAccelerated="true"
+35-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:17:18-52
+36        android:label="SmartHome" >
+36-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:17:117-142
+37        <activity
+37-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:18:9-87:16
+38            android:name="org.qtproject.qt5.android.bindings.QtActivity"
+38-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:19:19-79
+39            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+39-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:18:19-188
+40            android:label="SmartHome"
+40-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:20:19-44
+41            android:launchMode="singleTop"
+41-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:22:19-49
+42            android:screenOrientation="unspecified" >
+42-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:21:19-58
+43            <intent-filter>
+43-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:23:13-26:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:24:17-68
+44-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:24:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:25:17-76
+46-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:25:27-74
+47            </intent-filter>
+48
+49            <!-- Application arguments -->
+50            <!-- meta-data android:name="android.app.arguments" android:value="arg1 arg2 arg3"/ -->
+51            <!-- Application arguments -->
+52
+53            <meta-data
+53-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:32:13-87
+54                android:name="android.app.lib_name"
+54-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:32:24-59
+55                android:value="SmartHome" />
+55-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:32:60-85
+56            <meta-data
+56-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:33:13-112
+57                android:name="android.app.qt_sources_resource_id"
+57-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:33:24-73
+58                android:resource="@array/qt_sources" />
+58-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:33:74-110
+59            <meta-data
+59-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:34:13-87
+60                android:name="android.app.repository"
+60-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:34:24-61
+61                android:value="default" />
+61-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:34:62-85
+62            <meta-data
+62-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:35:13-106
+63                android:name="android.app.qt_libs_resource_id"
+63-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:35:24-70
+64                android:resource="@array/qt_libs" />
+64-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:35:71-104
+65            <meta-data
+65-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:36:13-116
+66                android:name="android.app.bundled_libs_resource_id"
+66-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:36:24-75
+67                android:resource="@array/bundled_libs" />
+67-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:36:76-114
+68            <!-- Deploy Qt libs as part of package -->
+69            <meta-data
+69-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:38:13-91
+70                android:name="android.app.bundle_local_qt_libs"
+70-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:38:24-71
+71                android:value="1" />
+71-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:38:72-89
+72
+73            <!-- Run with local libs -->
+74            <meta-data
+74-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:41:13-88
+75                android:name="android.app.use_local_qt_libs"
+75-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:41:24-68
+76                android:value="1" />
+76-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:41:69-86
+77            <meta-data
+77-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:42:13-100
+78                android:name="android.app.libs_prefix"
+78-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:42:24-62
+79                android:value="/data/local/tmp/qt/" />
+79-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:42:63-98
+80            <meta-data
+80-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:43:13-122
+81                android:name="android.app.load_local_libs_resource_id"
+81-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:43:24-78
+82                android:resource="@array/load_local_libs" />
+82-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:43:79-120
+83            <meta-data
+83-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:44:13-126
+84                android:name="android.app.load_local_jars"
+84-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:44:24-66
+85                android:value="jar/QtAndroidBearer.jar:jar/QtAndroid.jar" />
+85-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:44:67-124
+86            <meta-data
+86-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:45:13-89
+87                android:name="android.app.static_init_classes"
+87-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:45:24-70
+88                android:value="" />
+88-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:45:71-87
+89            <!-- Used to specify custom system library path to run with local system libs -->
+90            <!-- <meta-data android:name="android.app.system_libs_prefix" android:value="/system/lib/"/> -->
+91            <!-- Messages maps -->
+92            <meta-data
+92-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:49:13-122
+93                android:name="android.app.ministro_not_found_msg"
+93-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:49:71-120
+94                android:value="@string/ministro_not_found_msg" />
+94-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:49:24-70
+95            <meta-data
+95-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:50:13-116
+96                android:name="android.app.ministro_needed_msg"
+96-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:50:68-114
+97                android:value="@string/ministro_needed_msg" />
+97-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:50:24-67
+98            <meta-data
+98-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:51:13-108
+99                android:name="android.app.fatal_error_msg"
+99-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:51:64-106
+100                android:value="@string/fatal_error_msg" />
+100-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:51:24-63
+101            <meta-data
+101-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:52:13-132
+102                android:name="android.app.unsupported_android_version"
+102-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:52:76-130
+103                android:value="@string/unsupported_android_version" />
+103-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:52:24-75
+104            <!-- Messages maps -->
+105
+106
+107            <!-- Splash screen -->
+108            <!--
+109                 Orientation-specific (portrait/landscape) data is checked first. If not available for current orientation,
+110                 then android.app.splash_screen_drawable. For best results, use together with splash_screen_sticky and
+111                 use hideSplashScreen() with a fade-out animation from Qt Android Extras to hide the splash screen when you
+112                 are done populating your window with content.
+113            -->
+114            <!-- meta-data android:name="android.app.splash_screen_drawable_portrait" android:resource="@drawable/logo_portrait" / -->
+115            <!-- meta-data android:name="android.app.splash_screen_drawable_landscape" android:resource="@drawable/logo_landscape" / -->
+116            <!-- meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/logo"/ -->
+117            <!-- meta-data android:name="android.app.splash_screen_sticky" android:value="true"/ -->
+118            <!-- Splash screen -->
+119
+120
+121            <!-- Background running -->
+122            <!--
+123                 Warning: changing this value to true may cause unexpected crashes if the
+124                          application still try to draw after
+125                          "applicationStateChanged(Qt::ApplicationSuspended)"
+126                          signal is sent!
+127            -->
+128            <meta-data
+128-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:71:13-93
+129                android:name="android.app.background_running"
+129-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:71:24-69
+130                android:value="false" />
+130-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:71:70-91
+131            <!-- Background running -->
+132
+133
+134            <!-- auto screen scale factor -->
+135            <meta-data
+135-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:75:13-99
+136                android:name="android.app.auto_screen_scale_factor"
+136-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:75:24-75
+137                android:value="false" />
+137-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:75:76-97
+138            <!-- auto screen scale factor -->
+139
+140
+141            <!-- extract android style -->
+142            <!--
+143                 available android:values :
+144                * default - In most cases this will be the same as "full", but it can also be something else if needed, e.g., for compatibility reasons
+145                * full - useful QWidget & Quick Controls 1 apps
+146                * minimal - useful for Quick Controls 2 apps, it is much faster than "full"
+147                * none - useful for apps that don't use any of the above Qt modules
+148            -->
+149            <meta-data
+149-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:85:13-98
+150                android:name="android.app.extract_android_style"
+150-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:85:24-72
+151                android:value="default" />
+151-->C:\Users\JTL\Desktop\version\version1.0 .1\QTSM\QtSmartHome1.0\SmartHome\android-build\AndroidManifest.xml:85:73-96
+152            <!-- extract android style -->
+153        </activity>
+154
+155        <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices -->
+156
+157    </application>
+158
+159</manifest>
